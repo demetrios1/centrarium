@@ -129,7 +129,7 @@ social:
     username: 
     url: 
     desc: Subscribe on YouTube
-    share: true
+    share: false
 
   - name: Instagram
     icon: instagram
