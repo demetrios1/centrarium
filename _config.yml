@@ -41,7 +41,7 @@ disqus_shortname: bencentra
 collections: #for the author pages
   authors:
     output: true
-    permalink: violated-assumptions/authors/:name
+    permalink: baseurl/authors/:name
 
 defaults:  #help the UI if we go to siteleaf, or even prose
 
