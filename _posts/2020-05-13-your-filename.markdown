@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-date: {}
+date: 2020-05-13T00:00:00.000Z
 author: Ben Centra
 categories: Jekyll
 tags: jekyll welcome
