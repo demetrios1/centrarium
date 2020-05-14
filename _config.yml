@@ -87,7 +87,7 @@ social:
     username: dpapakos
     url: https://twitter.com/TheBenCentra
     desc: Twitter gone
-    share: true
+    share: false
 
   - name: Facebook
     icon: facebook
