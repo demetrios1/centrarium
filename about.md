@@ -5,7 +5,7 @@ permalink: /about/
 published: true
 ---
 
-<img src="{{ site.baseurl }}assets/profile-placeholder.gif" title="Profile Picture" class="profile">
+<img src="{{ site.baseurl }}assets/doggo.png" title="Profile Picture" class="profile">
 
 Violated Assumptions is a blog ran by graduate students in mathematics and statistics at Arizona State University.  Join us as we delve into the most cutting edge and impactful statistical research, complain about other math/statistics research, and share our favorite baking recipes and moments from the Harry Potter saga.  This will be quite the ride, and we are glad to have you with us!
 
