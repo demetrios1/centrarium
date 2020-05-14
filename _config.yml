@@ -15,8 +15,8 @@ description: >
   A simple yet classy theme for your Jekyll website or blog.
 baseurl: "/violated-assumptions/" # the subpath of your site, e.g. /blog/
 url: "https://demetrios1.github.io" # the base hostname & protocol for your site
-cover: "assets/wowpic.jpg"#"assets/header_image.jpg"
-logo: "assets/logo.png"
+cover: "assets/wowpic.jpg" #"assets/header_image.jpg"
+logo: "assets/logo2.png" #"assets/logo.png"
 
 # Build settings
 markdown: kramdown
