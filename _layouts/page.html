@@ -9,19 +9,19 @@ published: true
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
 
-  {% assign items_grouped = site.posts | group_by: 'author' %}
-  {% for group in items_grouped %}
-    <h3>{{group.name}}</h3>
-    {% for item in group.items %}
-        <p>{{item.title}}</p>
-    {% endfor %}
-  {% endfor %}
+  
   
   {% include page_divider.html %}
 
   <article class="post-content">
     {{ content }}
   </article>
-
+{% assign items_grouped = site.posts | group_by: 'author' %}
+  {% for group in items_grouped %}
+    <h3>{{group.name}}</h3>
+    {% for item in group.items %}
+        <p>{{item.title}}</p>
+    {% endfor %}
+  {% endfor %}
 </div>
 </div>
