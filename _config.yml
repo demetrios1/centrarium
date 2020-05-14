@@ -45,13 +45,7 @@ collections: #for the author pages
     permalink: /authors/:name
 
 defaults:  #help the UI if we go to siteleaf, or even prose
-	- scope:
-    path: ''
-    type: authors
-    values:
-    permalink: "/authors/:name/"
-    layout: post
-    author: 
+
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
