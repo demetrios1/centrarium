@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "Posts"
+title: Posts
 permalink: /posts/
+published: true
 ---
 
 {% for category in site.categories %}
@@ -25,3 +26,8 @@ permalink: /posts/
 	{% if forloop.last == false %}<hr>{% endif %}
 {% endfor %}
 <br>
+{% assign author = site.authors | where: 'title', page.author | first %}
+{% if author %}
+  <a href="{{ author.url }}">{{ author.title }}</a>
+{% endif %}
+
