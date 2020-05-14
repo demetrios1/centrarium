@@ -170,7 +170,7 @@ protocols:
     fb_image_height: 605
     fb_image_type: "image/png"
 
-    twitter_image: "assets/logo.png"
+    twitter_image: "assets/logo2.jpg"
 
     os_repo: "https://github.com/RichardLitt/wordhoardpress.com"
     os_rcs_type: "git"
