@@ -1,5 +1,6 @@
 ---
 layout: default
+published: true
 ---
 <div class="home">
 
@@ -12,6 +13,15 @@ layout: default
 	</div>
 </div>
 
+  
+  <div class="wrapper">
+<ul>
+  {% for author in site.authors %}
+    <li><a href="{{ author.url }}">{{ author.title }}</a></li>
+  {% endfor %}
+</ul>  
+  </div>
+  
 <div class="wrapper">
 <ul class="post-list">
   {% for post in paginator.posts %}
