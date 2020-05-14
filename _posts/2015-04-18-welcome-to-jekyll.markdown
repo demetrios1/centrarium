@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome to Jekyll!
-date: 2015-04-18T08:43:59.000Z
+date: {}
 author: Ben Centra
 categories: Jekyll
 tags: jekyll welcome
