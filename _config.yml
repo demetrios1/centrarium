@@ -18,6 +18,15 @@ url: "https://demetrios1.github.io" # the base hostname & protocol for your site
 cover: "assets/wowpic.jpg" #"assets/header_image.jpg"
 logo: "assets/logo2.jpg" #"assets/logo.png"
 
+defaults:  #help the UI if we go to siteleaf, or even prose
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/blog/:title/"
+    layout: post
+    author: 
+
 collections:  #for the author pages
   authors:
     title: Authors
