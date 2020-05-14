@@ -2,7 +2,7 @@
 layout: post
 title: Welcome to Jekyll!
 date: '2020-05-13 11:30:00 +0800'
-author: Demetrios Papakostas
+author: Chester Ruffles
 categories: Jekyll
 tags: jekyll welcome
 cover: assets/nsfsvg.jpg
