@@ -26,8 +26,4 @@ published: true
 	{% if forloop.last == false %}<hr>{% endif %}
 {% endfor %}
 <br>
-{% assign author = site.authors | where: 'title', page.author | first %}
-{% if author %}
-  <a href="{{ author.url }}">{{ author.title }}</a>
-{% endif %}
 
