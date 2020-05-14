@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 published: true
 ---
-<a href="{{ site.baseurl }}assets/doggo.png" data-lightbox="falcon9-large" data-title="The Julia set">
+<a href="http://demetripapakostas.com/img/alfa.jpg" data-lightbox="falcon9-large" data-title="The Julia set">
   <img src="{{ site.baseurl }}assets/doggo.png" title="Sad pup">
 </a>
 <img src="{{ site.baseurl }}assets/doggo.png" title="Profile Picture" class="profile">
