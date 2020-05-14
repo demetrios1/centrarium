@@ -49,7 +49,7 @@ future: true
 #     tag: '/tag/:name/'
 
 # Disqus comments
-disqus_shortname: 
+disqus_shortname: bencentra
 
 collections:
   authors:
@@ -109,7 +109,14 @@ social:
     url: https//www.linkedin.com/in/demetrios-papakostas-449b05ba/
     desc: Connect with me on LinkedIn
     share: true
-
+  
+  - name: Reddit
+    icon: reddit
+    username: tex2hard
+    url: https://www.reddit.com/user/tex2hard/
+    desc: Reddit account
+    share: true
+  
   - name: Google+
     icon: google-plus
     username: 
