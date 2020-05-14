@@ -43,10 +43,9 @@ collections: #for the author pages
     title: Authors
     output: true
 defaults: #help the UI if we go to siteleaf, or even prose
-- scope:
     path: ''
     type: authors
-  values:
+    values:
     permalink: "/violated-assumptions/authors/:title/"
 
 
