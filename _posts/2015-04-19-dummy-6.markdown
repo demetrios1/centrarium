@@ -1,0 +1,11 @@
+---
+published: false
+layout: post
+date: {}
+author: Ben Centra
+categories: Dummy
+tags: lorem ipsum
+---
+## A New Post
+
+Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
