@@ -9,6 +9,6 @@ author: Billy Bluetooth
 Billy Bluetooth sports a Jabra talk 30.
 
 <a href="http://demetripapakostas.com/img/frontpic.jpg" data-lightbox="falcon9-large" data-title="Demetri Circa 2018">
-  <img src="http://demetripapakostas.com/pic/mitch.png" title="A Julia set">
+  <img src="http://demetripapakostas.com/pics/mitch.png" title="A Julia set">
 </a>
 
