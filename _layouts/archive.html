@@ -1,5 +1,6 @@
 ---
 layout: default
+published: true
 ---
 <div class="wrapper">
 <div class="page">
@@ -10,6 +11,14 @@ layout: default
 
 	{% include page_divider.html %}
 
+  <h1 class="name">{{ page.title }}</h1>
+<div class="bio">{{ page.content }}</div>
+
+{% assign posts = site.posts | where: 'author', page.title %}
+{% for post in posts %}
+  {% include post.html %}
+{% endfor %}
+  
 	<article class="post-content">
 		<ul class="posts-list">
 			{% for post in page.posts %}
