@@ -1,1 +1,0 @@
-Demetris alter ego.
