@@ -49,7 +49,7 @@ future: true
 #     tag: '/tag/:name/'
 
 # Disqus comments
-disqus_shortname: dpapakos
+disqus_shortname: 
 
 collections:
   authors:
