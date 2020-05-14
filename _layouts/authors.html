@@ -13,3 +13,25 @@ published: true
 {% for post in posts %}
   {% include post.html %}
 {% endfor %}
+
+<article class="animal">
+
+
+    <img src="{{ page.picture }}" alt="Photo of a {{ page.title | downcase }}">
+
+
+  <h1>Animal Profile: {{ page.title }}</h1>
+
+  <div class="animal-class {{ page.class | downcase }}">
+    {{ page.class }}
+  </div>
+
+  <div class="animal-family {{ page.family | downcase }}">
+    {{ page.family }}
+  </div>
+
+  <div>
+    {{ content }}
+  </div>
+
+</article>
