@@ -46,7 +46,7 @@ defaults: #help the UI if we go to siteleaf, or even prose
     path: ''
     type: authors
     values:
-    permalink: "/violated-assumptions/authors/:title/"
+    permalink: "/violated-assumptions/authors/:title/.html"
 
 defaults: #help the UI if we go to siteleaf, or even prose
     path: ''
