@@ -15,7 +15,8 @@ published: true
 
   <article class="post-content">
     {{ content }}
-  </article>
+
+  
 {% assign items_grouped = site.posts | group_by: 'author' %}
   {% for group in items_grouped %}
     <h3>{{group.name}}</h3>
@@ -23,5 +24,6 @@ published: true
         <p>{{item.title}}</p>
     {% endfor %}
   {% endfor %}
+      </article>
 </div>
 </div>
