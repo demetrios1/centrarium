@@ -27,11 +27,7 @@ defaults:  #help the UI if we go to siteleaf, or even prose
     layout: post
     author: 
 
-collections:  #for the author pages
-  authors:
-    title: Authors
-    output: true
- 
+
 # Build settings
 markdown: kramdown
 paginate: 5
@@ -51,11 +47,11 @@ future: true
 # Disqus comments
 disqus_shortname: bencentra
 
-collections:
+collections: #for the author pages
   authors:
     title: Authors
     output: true
-    permalink: /author/:name
+    permalink: /authors/:name
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
 
