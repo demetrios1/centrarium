@@ -1,0 +1,178 @@
+---
+layout: page
+title: Typography
+permalink: /typography/
+published: true
+---
+
+<p>The purpose of this HTML is to help determine what default settings are with Bitters and to make sure that all possible HTML Elements are included in this HTML so as to not miss any possible Elements when designing a site.</p>
+
+<hr>
+    <h1 id="paragraph">Authors and their content</h1>
+<ul class="post-list">
+  {% for author in site.authors %}
+    <li><a href="{{ author.url }}">{{ author.title }}</a></li>
+  {% endfor %}
+</ul>  
+  
+
+<h1 id="paragraph">Update</h1>
+
+Here is a cool feature. Lets the user upload data.  One thing not super sure about is the disqus platform...will see.  Experiment here
+
+<hr>
+
+
+<h1 id="form_elements">Fieldsets and Form Elements</h1>
+
+<fieldset>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.</p>
+
+  <form>
+    <h2>Form Element</h2>
+
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui.</p>
+
+    <p><label for="text_field">Text Field:</label>
+      <input type="text" id="text_field" /></p>
+
+    <p><label for="text_area">Text Area:</label>
+      <textarea id="text_area"></textarea></p>
+
+    <p><label for="select_element">Select Element:</label>
+      <select name="select_element">
+        <optgroup label="Option Group 1">
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+        </optgroup>
+        <optgroup label="Option Group 2">
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+        </optgroup>
+    </select></p>
+
+    <p><label for="radio_buttons">Radio Buttons:</label>
+      <label>
+        <input type="radio" class="radio" name="radio_button" value="radio_1" /> Radio 1
+      </label>
+      <label>
+        <input type="radio" class="radio" name="radio_button" value="radio_2" /> Radio 2
+      </label>
+      <label>
+        <input type="radio" class="radio" name="radio_button" value="radio_3" /> Radio 3
+      </label>
+    </p>
+
+    <p><label for="checkboxes">Checkboxes:</label>
+      <label>
+        <input type="checkbox" class="checkbox" name="checkboxes" value="check_1" /> Checkbox 1
+      </label>
+      <label>
+        <input type="checkbox" class="checkbox" name="checkboxes" value="check_2" /> Checkbox 2
+      </label>
+      <label>
+        <input type="checkbox" class="checkbox" name="checkboxes" value="check_3" /> Checkbox 3
+      </label>
+    </p>
+
+    <p><label for="password">Password:</label>
+      <input type="password" class="password" name="password" />
+    </p>
+
+    <p><label for="file">File Input:</label>
+      <input type="file" class="file" name="file" />
+    </p>
+
+
+    <p><input type="submit" value="Submit" /></p>
+  </form>
+</fieldset>
+
+<hr>
+
+<h1 id="tables">Tables</h1>
+
+<table cellspacing="0" cellpadding="0">
+  <tr>
+    <th>Table Header 1</th><th>Table Header 2</th><th>Table Header 3</th>
+  </tr>
+  <tr>
+    <td>Division 1</td><td>Division 2</td><td>Division 3</td>
+  </tr>
+  <tr class="even">
+    <td>Division 1</td><td>Division 2</td><td>Division 3</td>
+  </tr>
+  <tr>
+    <td>Division 1</td><td>Division 2</td><td>Division 3</td>
+  </tr>
+</table>
+
+
+<section class="rss">
+	<p class="rss-subscribe text"><strong>Subscribe <a href="{{ "feed.xml" | prepend: site.baseurl }}">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  {% for social in site.social %}
+  	{% if social.name == "Twitter" and social.share == true %}
+  		<a href="//twitter.com/share?text={{ page.title | cgi_escape }}&url={{ site.url | append: site.baseurl }}{{ page.id }}.html&via={{social.username}}"
+  			onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
+  			<i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
+  		</a>
+  	{% endif %}
+  	{% if social.name == "Facebook" and social.share == true %}
+  		<a href="//www.facebook.com/sharer.php?t={{ page.title | cgi_escape }}&u={{ site.url | append: site.baseurl }}{{ page.id }}.html"
+  			onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
+  			<i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
+  		</a>
+  	{% endif %}
+  	{% if social.name == "Google+" and social.share == true %}
+  		<a href="//plus.google.com/share?title={{ page.title | cgi_escape }}&url={{ site.url | append: site.baseurl }}{{ page.id }}.html"
+  			onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
+  			<i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
+  		</a>
+  	{% endif %}
+  	{% if social.name == "LinkedIn" and social.share == true %}
+  		<a href="//www.linkedin.com/shareArticle?mini=true&url={{ site.url | append: site.baseurl }}{{ page.id }}.html"
+  			onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
+  			<i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
+  		</a>
+  	{% endif %}
+  	{% if social.name == "Pinterest" and social.share == true %}
+  		<a href="//www.pinterest.com/pin/create/button/?description={{ page.title | cgi_escape }}&url={{ site.url | append: site.baseurl }}{{ page.id }}.html&media={{ site.url }}{% if page.cover %}{{ page.cover | prepend: site.baseurl  }}{% elsif site.cover %}{{ site.cover | prepend: site.baseurl }}{% else %}{{ site.logo | prepend: site.baseurl }}{% endif %}"
+  			onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
+  			<i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
+  		</a>
+  	{% endif %}
+  {% endfor %}
+</section>
+
+{% if site.disqus_shortname %}
+{% unless page.disqus_disabled %}
+<section class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname = '{{ site.disqus_shortname }}';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+{% endunless %}
+{% endif %}
+</div>
+</div>
+
+
+</div>
+</div>
