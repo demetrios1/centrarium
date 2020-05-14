@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome to Jekyll!
-date: 05-14-2020
+date: '2020-05-13 11:30:00 +0800'
 author: Ben Centra
 categories: Jekyll
 tags: jekyll welcome
