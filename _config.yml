@@ -55,6 +55,7 @@ collections:
   authors:
     title: Authors
     output: true
+    permalink: /author/:name
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
 
