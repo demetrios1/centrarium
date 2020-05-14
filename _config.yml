@@ -18,14 +18,6 @@ url: "https://demetrios1.github.io" # the base hostname & protocol for your site
 cover: "assets/wowpic.jpg" #"assets/header_image.jpg"
 logo: "assets/logo2.jpg" #"assets/logo.png"
 
-defaults:
-- scope:
-    path: ''
-    type: authors
-  values:
-    permalink: "/blog/authors/:title/"
-    layout: author
-    twitter: 
 collections:  #for the author pages
   authors:
     title: Authors
