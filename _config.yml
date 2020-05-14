@@ -16,7 +16,7 @@ description: >
 baseurl: "/violated-assumptions/" # the subpath of your site, e.g. /blog/
 url: "https://demetrios1.github.io" # the base hostname & protocol for your site
 cover: "assets/wowpic.jpg" #"assets/header_image.jpg"
-logo: "assets/logo2.png" #"assets/logo.png"
+logo: "assets/logo2.jpg" #"assets/logo.png"
 
 # Build settings
 markdown: kramdown
