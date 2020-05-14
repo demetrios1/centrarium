@@ -50,7 +50,7 @@ defaults: #help the UI if we go to siteleaf, or even prose
 
 defaults: #help the UI if we go to siteleaf, or even prose
     path: ''
-    type: posts
+    type: post
     values:
     permalink: "/violated-assumptions/authors/:title/"
 
