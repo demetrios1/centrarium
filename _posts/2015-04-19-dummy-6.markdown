@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-date: {}
+date: 05-13-2020
 author: Ben Centra
 categories: Dummy
 tags: lorem ipsum
