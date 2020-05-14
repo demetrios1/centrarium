@@ -11,7 +11,7 @@ published: true
 		  <p class="info">by <strong>{{ page.author }}</strong></p>
           {% assign author = site.authors | where: 'title', page.author | first %}
 {% if author %}
-  <a href="{{ author.url }}">{{ author.title }}</a>
+          <strong><a href="{{ author.url }}">{{ author.title }}</a></strong>
 {% endif %}
 		</header>
 	</div>
