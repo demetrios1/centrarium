@@ -23,8 +23,8 @@ demo("hello, world!", 10);</code></pre>
 ### Images are also easy in Jekyll, thanks to [Lightbox][lightbox].
 
 
-<a href="//http://demetripapakostas.com/img/newmandel.png" data-lightbox="falcon9-large" data-title="Check out the Falcon 9 from SpaceX">
-  <img src="//http://demetripapakostas.com/img/newmandel.png" title="A Julia set">
+<a href="/http://demetripapakostas.com/img/alfa.jpg" data-lightbox="falcon9-large" data-title="Check out the Falcon 9 from SpaceX">
+  <img src="//http://demetripapakostas.com/img/alfa.jpg" title="A Julia set">
 </a>
 
 
