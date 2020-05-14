@@ -10,6 +10,4 @@ published: true
 <div class="bio">{{ page.content }}</div>
 
 {% assign posts = site.posts | where: 'author', page.title %}
-{% for post in posts %}
-  {% include post.html %}
-{% endfor %}
+
