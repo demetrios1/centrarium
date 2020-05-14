@@ -32,11 +32,11 @@ demo("hello, world!", 10);</code></pre>
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
 
 
-###Latex inserts
+### Latex inserts
 
 We will not be able to completely recreate the beauty of Latex (hell, can anything really?), but we can do pretty well using MathJax.  See the following expression:
 
-$$\pi(\theta|\mathbf{x})\propto \pi(\theta)f(\mathbf{x}|\theta)$$ 
+\[\pi(\theta|\mathbf{x})\propto \pi(\theta)f(\mathbf{x}|\theta)\] 
 (Bayes, for those who don't know)
 
 [jekyll]:      http://jekyllrb.com
