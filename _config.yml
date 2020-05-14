@@ -68,10 +68,10 @@ descriptions:
 social:
   - name: Twitter
     icon: twitter
-    username: TheBenCentra
+    username: dpapakos
     url: https://twitter.com/TheBenCentra
-    desc: Follow me on Twitter
-    share: false
+    desc: Twitter gone
+    share: true
 
   - name: Facebook
     icon: facebook
@@ -106,7 +106,7 @@ social:
     username: 
     url: 
     desc: Subscribe on YouTube
-    share: false
+    share: true
 
   - name: Instagram
     icon: instagram
@@ -120,14 +120,14 @@ social:
     username: 
     url: 
     desc: Follow me on Pinterest
-    share: true
+    share: false
 
   - name: SoundCloud
     icon: soundcloud
     username: 
     url: 
     desc: Follow me on SoundCloud
-    share: false
+    share: true
 
   - name: Tumblr
     icon: tumblr
