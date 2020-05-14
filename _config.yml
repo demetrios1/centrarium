@@ -26,7 +26,10 @@ defaults:
     permalink: "/blog/authors/:title/"
     layout: author
     twitter: 
-
+collections:  #for the author pages
+  authors:
+    title: Authors
+    output: true
 # Build settings
 markdown: kramdown
 paginate: 5
