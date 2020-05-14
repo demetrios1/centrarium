@@ -39,6 +39,10 @@ future: true
 # Disqus comments
 disqus_shortname: dpapakos
 
+collections:
+  authors:
+    title: Authors
+    output: true
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
 
