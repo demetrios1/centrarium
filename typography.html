@@ -34,48 +34,10 @@ published: true
 
 <h1 id="paragraph">Paragraph</h1>
 
+Here is a cool feature. Lets the user upload data.  One thing not super sure about is the disqus platform...will see.  Experiment here
 
 <hr>
 
-<h1 id="list_types">List Types</h1>
-
-<p>Lists are unstyled by defualt. To restore the original styling, add the <code>.default</code> class</p>
-
-<h3>Definition List</h3>
-<dl>
-  <dt>Definition List Title</dt>
-  <dd>This is a definition list division.</dd>
-</dl>
-
-<h3>Ordered List</h3>
-<ol>
-  <li>List Item 1</li>
-  <li>List Item 2</li>
-  <li>List Item 3</li>
-</ol>
-
-<h3>Unordered List</h3>
-<ul>
-  <li>List Item 1</li>
-  <li>List Item 2</li>
-  <li>List Item 3</li>
-</ul>
-
-<h3>Ordered List with <code>.default</code> class</h3>
-<ol class="default">
-  <li>List Item 1</li>
-  <li>List Item 2</li>
-  <li>List Item 3</li>
-</ol>
-
-<h3>Unordered List with <code>.default</code> class</h3>
-<ul class="default">
-  <li>List Item 1</li>
-  <li>List Item 2</li>
-  <li>List Item 3</li>
-</ul>
-
-<hr>
 
 <h1 id="form_elements">Fieldsets and Form Elements</h1>
 
@@ -162,4 +124,69 @@ published: true
     <td>Division 1</td><td>Division 2</td><td>Division 3</td>
   </tr>
 </table>
+
+
+<section class="rss">
+	<p class="rss-subscribe text"><strong>Subscribe <a href="{{ "feed.xml" | prepend: site.baseurl }}">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  {% for social in site.social %}
+  	{% if social.name == "Twitter" and social.share == true %}
+  		<a href="//twitter.com/share?text={{ page.title | cgi_escape }}&url={{ site.url | append: site.baseurl }}{{ page.id }}.html&via={{social.username}}"
+  			onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
+  			<i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
+  		</a>
+  	{% endif %}
+  	{% if social.name == "Facebook" and social.share == true %}
+  		<a href="//www.facebook.com/sharer.php?t={{ page.title | cgi_escape }}&u={{ site.url | append: site.baseurl }}{{ page.id }}.html"
+  			onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
+  			<i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
+  		</a>
+  	{% endif %}
+  	{% if social.name == "Google+" and social.share == true %}
+  		<a href="//plus.google.com/share?title={{ page.title | cgi_escape }}&url={{ site.url | append: site.baseurl }}{{ page.id }}.html"
+  			onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
+  			<i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
+  		</a>
+  	{% endif %}
+  	{% if social.name == "LinkedIn" and social.share == true %}
+  		<a href="//www.linkedin.com/shareArticle?mini=true&url={{ site.url | append: site.baseurl }}{{ page.id }}.html"
+  			onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
+  			<i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
+  		</a>
+  	{% endif %}
+  	{% if social.name == "Pinterest" and social.share == true %}
+  		<a href="//www.pinterest.com/pin/create/button/?description={{ page.title | cgi_escape }}&url={{ site.url | append: site.baseurl }}{{ page.id }}.html&media={{ site.url }}{% if page.cover %}{{ page.cover | prepend: site.baseurl  }}{% elsif site.cover %}{{ site.cover | prepend: site.baseurl }}{% else %}{{ site.logo | prepend: site.baseurl }}{% endif %}"
+  			onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
+  			<i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
+  		</a>
+  	{% endif %}
+  {% endfor %}
+</section>
+
+{% if site.disqus_shortname %}
+{% unless page.disqus_disabled %}
+<section class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname = '{{ site.disqus_shortname }}';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+{% endunless %}
+{% endif %}
+
+
+
 </div>
