@@ -48,7 +48,7 @@ descriptions:
     desc: "Posts describing Jekyll setup techniques."
   
   - cat: stats
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
+    desc: "Posts pertaining to statistics and math."
 
 # Social icons and sharing options
 #
