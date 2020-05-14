@@ -69,6 +69,27 @@ pre code.hljs {
   }
 }
 
+.rileypic img{
+   display: none
+
+}
+
+
+
+span:hover +  img{
+   display: block;
+   text-align:center;
+   border: 4px solid #199EB8;
+   border: 4px solid #1975b8;/* changed color to match rileys tie*/
+   border-radius:69px;
+}
+#picloc img {
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .site-header-container, .post-header-container {
 	width: 100%;
 	text-align: center;
