@@ -6,7 +6,7 @@ date: '2020-05-14T8:30:00 +0000'
 author: Demetrios Papakostas
 ---
 <img src="{{ site.baseurl }}assets/tex.jpg" title="Latex" class="profile">
-$$\TeX_2$$ hard is my alias when it comes to playing smash and writing up latex reports.  Here are some of my favorite Latex packages.  
+$$\TeX_2$$ hard is my alias when it comes to playing smash and writing up latex reports.  Here are some of the most essential Latex packages.  
 
 -**Fouriernc** This allows you to use the New-Century Schoolbook font, which really is an excellent choice.  
 <hr>
@@ -19,13 +19,25 @@ Ah yes, bclogo.  This is the best table and box package in the game, hands down.
 -**tikz** I hear you already shouting BASIC!!!! but wait.  Not just any tikz, but <code>\usepackage{tikzlings-bears}</code>
 you can now draw bears and cats.
 
--**enquote** This package is essentual for quoting things and international support for things like French quotes. 
+-**csquotes** This package is essentual for quoting things and international support for things like French quotes. 
 
 -**booktabs** A must have for nice-looking tables.
 
 -**placeins** These are essential for enforcing even semi-sane float behavior. 
 
+-**Graphicx** An absolute must have to deploy figures and pictures
+
+-**siunitx** This is a really nice package to properly do units (no you cannot raise to the power of o for degrees)
+
+-**fancyhdr** Allows the user to have nice footer and headers really easily. 
+
+-**caption** A very powerful package that makes your captions and figures look more professional.
+
+-**hyperref** Allows you to have references hyperlink.  Especially given the rise in pdf textbooks, this is a must have and a life saver.  Also useful for those who are writing a thesis...hint hint.
+
 -**Geometry** Duh.
+
+
 
 
 Now, lets transition to smash.  Despite the name, $$\TeX_2$$ hard was always a pretty lousy player, save for the occasional tech.  However, here is $$\TeX_2$$hard's favorite smash moment.  Look here at 28:32 
