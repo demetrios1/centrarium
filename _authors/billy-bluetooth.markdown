@@ -13,7 +13,7 @@ Billy Bluetooth hails from the northeast corridor of the United States.  He is c
 Billy Bluetooth sports a Jabra talk 30.  Now this is quite the device.  It is reasonably priced and looks pretty dang cool.  The Jabra talk 30 is most famous for its appearance in the Aarod Rodgers state farm commercial.  While in these commercials the Jabra is meant to portray Rodger's agent in a negative light, Billy is confident that the Jabra does not have the same effect on him.
 
 ![]({{site.baseurl}}/https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpisces.bbystatic.com%2Fimage2%2FBestBuy_US%2Fimages%2Fproducts%2F6286%2F6286800_rd.jpg&f=1&nofb=1)
-## More bluetooth
+### More bluetooth
 In addition to his jabra talk 30, Bluetooth has also invested in some other bluetooth devices.   It's pretty sweet. He currently owns a laser bluetooth keyboard, and was gifted a bluetooth mic/headset by his good buddy.  Throw in a bluetooth mouse, and the sky truly is the limit.  
 
 
