@@ -1,5 +1,5 @@
 ---
-title: tex2hard
+title: $$\TeX_2$$hard
 published: true
 layout: page
 date: '2020-05-14T8:30:00 +0000'
