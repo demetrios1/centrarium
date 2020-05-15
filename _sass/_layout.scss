@@ -96,27 +96,7 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
-$background-color: hsl(50, 5, 97);
-$black: hsl(200, 40, 10);
-$white: $background-color;
-$base-font-size: 2.4em;
-$base-line-height: 1.5em;
-blockquote {
-  position: relative;
-  font-family: 'Sanchez', serif;
-  font-size: $base-font-size;
-  line-height: $base-line-height;
-  font-style: italic;
-  &:before {
-      content: '\201C';
-      position: absolute;
-      top: 0.25em;
-      left: -0.15em;
-      color: darken($white, 7%);
-      font-size: 6em;
-      z-index: -1;
-   }
-}
+
 
 span:hover + img{
    display: block;
