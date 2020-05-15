@@ -8,11 +8,11 @@ exclude:
 
 # Site settings
 title: Violated Assumptions
-subtitle: "Come for the math, stay for the laughs"
+subtitle: "Come for the math, stay for the ?"
 email: demetrip12345@gmail.com
 name: Demetrios Papakostas
 description: > 
-  Come for the math, stay for the laughs.
+  Come for the math, stay for the ?.
 baseurl: "/violated-assumptions/" # the subpath of your site, e.g. /blog/
 url: "https://demetrios1.github.io" # the base hostname & protocol for your site
 cover: "assets/wowpic.jpg" #"assets/header_image.jpg"
