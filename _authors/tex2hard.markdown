@@ -19,6 +19,14 @@ Ah yes, bclogo.  This is the best table and box package in the game, hands down.
 -**tikz** I hear you already shouting BASIC!!!! but wait.  Not just any tikz, but <code>\usepackage{tikzlings-bears}</code>
 you can now draw bears and cats.
 
+-**enquote** This package is essentual for quoting things and international support for things like French quotes. 
+
+-**booktabs** A must have for nice-looking tables.
+
+-**placeins** These are essential for enforcing even semi-sane float behavior. 
+
+-**Geometry** Duh.
+
 
 Now, lets transition to smash.  Despite the name, $$\TeX_2$$ hard was always a pretty lousy player, save for the occasional tech.  However, here is $$\TeX_2$$hard's favorite smash moment.  Look here at 28:32 
 [wow,wow,wow][smash_bro]
