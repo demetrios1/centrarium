@@ -15,6 +15,8 @@ $$\TeX_2$$ hard is my alias when it comes to playing smash and writing up latex 
 
 
 -**physics** Really, how could it be anything else?  Many people often go straight for the ams package, but the physics package just feels a little more intuitive and has slightly prettier paranthesis (imo).  
+> We loved with a love that was more than love
+
 
 
 -**tikz** I hear you already shouting BASIC!!!! but wait.  Not just any tikz, but <code>\usepackage{tikzlings-bears}</code>
