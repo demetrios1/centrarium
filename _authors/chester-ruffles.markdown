@@ -3,7 +3,7 @@ title: Demetrios Papakostas
 published: true
 layout: post
 date: '2020-05-14T8:30:00 +0000'
-author: Demetrios Papakostas
+author: Chester Ruffles
 ---
 
 Chester is another alter ego of Demetri.  Replace this with a bio, or fun facts, or research.  Template:
