@@ -28,10 +28,10 @@ you can now draw bears and cats.
 -**hyperref** Allows you to have references hyperlink.  Especially given the rise in pdf textbooks, this is a must have and a life saver.  Also useful for those who are writing a thesis...hint hint.
 
 -**Geometry** Duh.
-
+<hr>
 ### Favorite
 -**Fouriernc** This allows you to use the New-Century Schoolbook font, which really is an excellent choice.  
-<hr>
+
 -**bclogo**
 Ah yes, bclogo.  This is the best table and box package in the game, hands down.  Unfortunately, the documentation is in French, but luckily, tex2hard took 5 years of French in his highschool and middle school days.  
 
