@@ -8,7 +8,7 @@ author: Demetrios Papakostas
 
 $$\TeX_2$$ hard is my alias when it comes to playing smash and writing up latex reports.  Here are some of my favorite Latex packages.  
 
-- **Fouriernc** This allows you to use the New-Century Schoolbook font, which really is an excellent choice.  
+-**Fouriernc** This allows you to use the New-Century Schoolbook font, which really is an excellent choice.  
 <hr>
 -**bclogo**
 Ah yes, bclogo.  This is the best table and box package in the game, hands down.  Unfortunately, the documentation is in French, but luckily, tex2hard took 5 years of French in his highschool and middle school days.  
