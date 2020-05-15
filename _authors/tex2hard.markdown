@@ -43,7 +43,8 @@ Ah yes, bclogo.  This is the best table and box package in the game, hands down.
 
 
 
-
+<hr>
+### Smash
 
 
 Now, lets transition to smash.  Despite the name, $$\TeX_2$$ hard was always a pretty lousy player, save for the occasional tech.  However, here is $$\TeX_2$$hard's favorite smash moment.  Look here at 28:32 
