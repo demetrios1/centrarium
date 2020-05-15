@@ -16,3 +16,9 @@ Chester's research lies at the intersection of blank and blank
 
 
 ### Interesting recipes
+
+### Other stuff 
+
+Here include some fun stuff, up to you obviously.  Maybe a picture (see the Billy Bluetooth page for syntax of lighthouse pop-up)
+
+
