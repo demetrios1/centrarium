@@ -18,3 +18,6 @@ Ah yes, bclogo.  This is the best table and box package in the game, hands down.
 
 -**tikz** I hear you already shouting BASIC!!!! but wait.  Not just any tikz, but <code>\usepackage{tikzlings-bears}</code>
 you can now draw bears and cats.
+
+
+Now, lets transition to smash.  Despite the name, $$\TeX_2$$ hard was always a pretty lousy player, save for the occasional tech.
