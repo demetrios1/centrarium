@@ -20,4 +20,8 @@ Ah yes, bclogo.  This is the best table and box package in the game, hands down.
 you can now draw bears and cats.
 
 
-Now, lets transition to smash.  Despite the name, $$\TeX_2$$ hard was always a pretty lousy player, save for the occasional tech.
+Now, lets transition to smash.  Despite the name, $$\TeX_2$$ hard was always a pretty lousy player, save for the occasional tech.  However, here is tex2hard's favorite smash moment.  Look here at 28:32 
+[wow,wow,wow][jekyll]
+
+
+[smash_bro]:     https://www.youtube.com/watch?v=toZWl5pQVQ4&feature=youtu.be
