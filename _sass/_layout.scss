@@ -79,27 +79,28 @@ pre code.hljs {
 
 
 
-$background-color: hsl(50, 5, 97);
-$black: hsl(200, 40, 10);
-$white: $background-color;
-$base-font-size: 2.4em;
-$base-line-height: 1.5em;
+
 blockquote {
   position: relative;
-  font-family: 'Sanchez', serif;
-  font-size: $base-font-size;
-  line-height: $base-line-height;
+ background: #f8f9fa;
   font-style: italic;
+   border-top: 2px solid #425c85;
+   border-bottom: 2px solid #425c85;
   &:before {
       content: '\201C';
       position: absolute;
       top: 0.25em;
       left: -0.15em;
-      color: darken($white, 7%);
+      color: darken(#fff, 7%);
       font-size: 6em;
       z-index: -1;
    }
 }
+blockquote p {
+  display: inline;
+}
+
+
 
 span:hover + img{
    display: block;
