@@ -77,6 +77,25 @@ pre code.hljs {
 }
 
 
+blockquote {
+  background: #f8f9fa;
+  
+  border-top: 2px solid #425c85;
+   border-bottom: 2px solid #425c85;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
+blockquote:before {
+  color: #ccc;
+  content: '\201C';
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
 
 
 
@@ -85,8 +104,6 @@ blockquote {
  background: #f8f9fa;
   font-style: italic;
    border-top: 2px solid #425c85;
-   margin-left:20%;
-   top:50%;
    border-bottom: 2px solid #425c85;
   &:before {
       content: '\201C';
@@ -98,11 +115,6 @@ blockquote {
       z-index: -1;
    }
 }
-blockquote p {
-  display: inline;
-}
-
-
 
 span:hover + img{
    display: block;
