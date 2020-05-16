@@ -129,7 +129,7 @@ Here is a cool feature. Lets the user upload data.  One thing not super sure abo
   			<i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
   		</a>
   	{% endif %}
-  	{% if social.name == "Google+" and social.share == true %}
+  	{% if social.name == "Vine" and social.share == true %}
   		<a href="//plus.google.com/share?title={{ page.title | cgi_escape }}&url={{ site.url | append: site.baseurl }}{{ page.id }}.html"
   			onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
   			<i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
