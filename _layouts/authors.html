@@ -13,5 +13,5 @@ published: true
 <div class="bio">{{ page.content }}</div>
 
 <span class="author">
-    <a href="{{ author.url }}">{{ author.title }}</a>
+  <a class="post-link" href="{{ author.url | remove_first: '/' | prepend: site.baseurl }}">{{ author.title }}</a>
   </span>
