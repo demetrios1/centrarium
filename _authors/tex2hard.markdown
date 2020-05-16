@@ -13,7 +13,7 @@ $$\TeX_2$$ hard is my alias when it comes to playing smash and writing up latex 
 ### Essential
 -**Graphicx** An absolute must have to deploy figures and pictures.
 
--**siunitx** This is a really nice package to properly do units (no you cannot raise to the power of o for degrees)
+-**siunitx** This is a really nice package to properly do units (no you cannot raise to the power of o for degrees).
 
 
 -**physics** Really, how could it be anything else?  Many people often go straight for the ams package, but the physics package just feels a little more intuitive and has slightly prettier paranthesis (imo).  
