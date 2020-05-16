@@ -40,6 +40,7 @@ Ah yes, bclogo.  This is the best table and box package in the game, hands down.
 
 
 -**placeins** These are essential for enforcing even semi-sane float behavior. 
+
 -**fancyhdr** Allows the user to have nice footer and headers really easily. 
 
 
