@@ -12,7 +12,7 @@ published: true
 <h1 class="name">{{ page.title }}</h1>
 <div class="bio">{{ page.content }}</div>
 
-{% assign posts = site.posts | where: 'author', page.title %}
+{% assign posts = site.posts | where: 'title', page.title %}
 {% for post in posts %}
   {% include post.html %}
 {% endfor %}
