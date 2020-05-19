@@ -13,7 +13,7 @@ published: true
 
   <h1>List of posts</h1>
 <ul>
-{% for p in site.posts do %}
+{% for p in site.pages do %}
   {% if p.authors == page.authors %}
     <li><a href="{{ p.url | remove_first: '/' | prepend: site.baseurl }}">{{ p.title }}</a></li>
   {% endif %}
