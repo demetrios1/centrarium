@@ -14,4 +14,10 @@ published: true
 <span class="author">
   <a class="post-link" href="{{ author.url | remove_first: '/' | prepend: site.baseurl }}">{{ author.title }}</a>
   </span>
-
+<ul>
+  {% for p in site.posts do %}
+  {if p.author == post.author %}
+  <li><a href="{{p.url }}">{{ p.title }}</a>
+    {% endif %}
+  {% endif %}
+</ul>
