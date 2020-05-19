@@ -14,9 +14,9 @@ published: true
 
 <ul>
   <p>List of posts</p>
-
+{% for p in site.posts do %}
   {% if p.authors == post.authors %}
     <li><a href="{{ p.url }}">{{ p.title }}</a></li>
   {% endif %}
-
+{% endfor %}
 </ul>
