@@ -1,7 +1,7 @@
 ---
 title: Chester Ruffles
 published: true
-layout: page
+layout: authors
 date: '2020-05-14T8:30:00 +0000'
 author: Demetrios Papakostas
 ---
@@ -20,5 +20,3 @@ Chester's research lies at the intersection of blank and blank
 ### Other stuff 
 
 Here include some fun stuff, up to you obviously.  Maybe a picture (see the Billy Bluetooth page for syntax of lighthouse pop-up)
-
-
