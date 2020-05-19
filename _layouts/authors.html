@@ -11,12 +11,11 @@ published: true
 
 <div class="bio">{{ page.content }}</div>
 
-
-<ul>
   <h1>List of posts</h1>
+<ul>
 {% for p in site.posts do %}
   {% if p.authors == post.authors %}
-    <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+    <li><a href="{{ p.url | remove_first: '/' | prepend: site.baseurl }}">{{ p.title }}</a></li>
   {% endif %}
 {% endfor %}
 </ul>
