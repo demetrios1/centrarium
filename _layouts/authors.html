@@ -19,7 +19,7 @@ published: true
   {% endif %}
 {% endfor %}
 </ul>
-{% for category in site.categories %}
+{% for category in site.authors %}
 	{% capture cat %}{{ category | first }}{% endcapture %}
 	<h2>{{ cat | capitalize }}</h2>
 	{% for desc in site.descriptions %}
@@ -28,7 +28,7 @@ published: true
 		{% endif %}
 	{% endfor %}
 <ul class="posts-list">
-	{% for post in site.categories[cat] %}
+	{% for post in site.authors[cat] %}
 		<li>
 			<strong>
 				<a href="{{ post.url | remove_first: '/' | prepend: site.baseurl }}">{{ post.title }}</a>
