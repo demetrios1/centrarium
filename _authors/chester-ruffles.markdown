@@ -1,7 +1,7 @@
 ---
 title: Chester Ruffles
 published: true
-layout: authors
+layout: archive
 date: '2020-05-14T8:30:00 +0000'
 author: Demetrios Papakostas
 ---
