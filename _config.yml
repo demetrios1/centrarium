@@ -82,7 +82,7 @@ social:
   - name: Twitter
     icon: twitter
     username: dpapakos
-    url: https://twitter.com/TheBenCentra
+    url: #https://twitter.com/TheBenCentra
     desc: Twitter gone
     share: false
 
@@ -96,7 +96,7 @@ social:
   - name: GitHub
     icon: github
     username: demetrios1
-    url: https://github.com/demetrios1
+    url: #https://github.com/demetrios1
     desc: Fork me on GitHub
     share: false
   
