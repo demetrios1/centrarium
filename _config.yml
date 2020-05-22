@@ -84,7 +84,7 @@ social:
     username: dpapakos
     url: https://twitter.com/TheBenCentra
     desc: Twitter gone
-    share: true
+    share: false
 
   - name: Facebook
     icon: facebook
@@ -99,6 +99,7 @@ social:
     url: https://github.com/demetrios1
     desc: Fork me on GitHub
     share: false
+  
 
   - name: LinkedIn
     icon: linkedin
