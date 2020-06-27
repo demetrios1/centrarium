@@ -8,8 +8,9 @@ published: true
 <p>The purpose of this HTML is to help determine what default settings are with Bitters and to make sure that all possible HTML Elements are included in this HTML so as to not miss any possible Elements when designing a site.</p>
 
 <hr>
+    <h1 id="paragraph">Authors and their content</h1>
 <ul class='post-list'>
-{% for post in paginator.authors %}
+{% for post in site.authors %}
   <li>
     <h2>
       <a class="post-link" href="{{ post.url | remove_first: '/' | prepend: site.baseurl }}">{{ post.title }}</a>
